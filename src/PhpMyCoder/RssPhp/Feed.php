@@ -1,5 +1,7 @@
 <?php namespace PhpMyCoder\RssPhp;
 
+use SimpleXMLElement;
+
 /**
  * RSS for PHP - small and easy-to-use library for consuming an RSS Feed
  *
@@ -101,7 +103,7 @@ class Feed
 	 */
 	public function __set($name, $value)
 	{
-		throw new Exception("Cannot assign to a read-only property '$name'.");
+		throw new \Exception("Cannot assign to a read-only property '$name'.");
 	}
 
 
