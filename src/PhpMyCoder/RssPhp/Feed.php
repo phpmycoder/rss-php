@@ -1,4 +1,4 @@
-<?php
+<?php namespace PhpMyCoder\RssPhp;
 
 /**
  * RSS for PHP - small and easy-to-use library for consuming an RSS Feed
